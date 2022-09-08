@@ -1,6 +1,5 @@
 package sudoku.userInterface;
 
-import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
@@ -16,13 +15,10 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import org.w3c.dom.css.Rect;
 import sudoku.GameState.GameState;
-import sudoku.problemdomain.Coordinates;
-import sudoku.problemdomain.SudokuGame;
-import sudoku.userInterface.SudokuTextField;
+import sudoku.problemDomain.Coordinates;
+import sudoku.problemDomain.SudokuGame;
 
-import javax.swing.*;
 import java.util.HashMap;
 
 public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHandler<KeyEvent> {

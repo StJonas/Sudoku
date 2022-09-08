@@ -2,8 +2,8 @@ package sudoku.userInterface.logic;
 
 import sudoku.GameState.GameState;
 import sudoku.GameState.Messages;
-import sudoku.problemdomain.IStorage;
-import sudoku.problemdomain.SudokuGame;
+import sudoku.problemDomain.IStorage;
+import sudoku.problemDomain.SudokuGame;
 import sudoku.userInterface.IUserInterfaceContract;
 
 import java.io.IOException;

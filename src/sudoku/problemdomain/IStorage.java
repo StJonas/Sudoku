@@ -1,4 +1,4 @@
-package sudoku.problemdomain;
+package sudoku.problemDomain;
 
 import java.io.IOException;
 
